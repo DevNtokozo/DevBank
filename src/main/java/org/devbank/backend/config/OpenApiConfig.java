@@ -13,10 +13,10 @@ public class OpenApiConfig {
 
         return new OpenAPI()
                 .info(new Info()
-                        .title("Dev Bank API")
+                        .title("DevBank API")
                         .version("1.0")
                         .description(
-                                "REST API for the Dev Bank banking application. "
+                                "REST API for the DevBank banking application. "
                                         + "Provides authentication, account management, "
                                         + "transfers, transactions and beneficiary management."
                         ));
